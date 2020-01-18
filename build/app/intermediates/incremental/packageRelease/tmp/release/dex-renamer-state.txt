@@ -1,0 +1,4 @@
+#Sat Jan 18 19:14:52 WET 2020
+base.0=/Users/msansone/Documents/git/flutter/flutter_english_play/build/app/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

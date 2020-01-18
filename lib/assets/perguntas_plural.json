@@ -1,0 +1,6 @@
+[
+    {"qid":"0","questao":"What is the plural of man?"    ,"itens":[{"opcao":"mans",    "certa":"F"},{"opcao":"mas",    "certa":"F"},{"opcao":"men",    "certa":"V"},{"opcao":"people", "certa":"F"},{"opcao":"some",   "certa":"F"}]},
+    {"qid":"1","questao":"What is the plural of woman?"  ,"itens":[{"opcao":"women",   "certa":"V"},{"opcao":"womans", "certa":"F"},{"opcao":"woma",   "certa":"F"},{"opcao":"people", "certa":"F"},{"opcao":"some",   "certa":"F"}]},
+    {"qid":"2","questao":"What is the plural of spoon?"  ,"itens":[{"opcao":"spoon",   "certa":"F"},{"opcao":"span",   "certa":"F"},{"opcao":"spoons", "certa":"V"},{"opcao":"spoos",  "certa":"F"},{"opcao":"spons",  "certa":"F"}]},
+    {"qid":"3","questao":"What is the plural of paper?"  ,"itens":[{"opcao":"paperes", "certa":"F"},{"opcao":"papes",  "certa":"F"},{"opcao":"paps",   "certa":"F"},{"opcao":"papers", "certa":"V"},{"opcao":"paperz", "certa":"F"}]}
+    ]

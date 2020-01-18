@@ -1,0 +1,6 @@
+# Referenced at /Users/msansone/Documents/git/flutter/flutter_english_play/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:17
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/msansone/Documents/git/flutter/flutter_english_play/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:22
+-keep class com.example.flutter_english_play.MainActivity { <init>(); }
+# Referenced at /Users/msansone/Documents/git/flutter/flutter_english_play/build/app/intermediates/merged_manifests/release/AndroidManifest.xml:17
+-keep class io.flutter.app.FlutterApplication { <init>(); }

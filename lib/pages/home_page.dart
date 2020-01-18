@@ -3,6 +3,7 @@ import 'package:flutter_english_play/widget/questao_wid.dart';
 
 
 int pontos=50;
+String squestao = '{"qid":"0","questao":"What is the plural of man?","itens":[{"opcao":"mans", "certa":"F"},{"opcao":"mas", "certa":"F"},{"opcao":"men", "certa":"V"},{"opcao":"people", "certa":"F"},{"opcao":"some", "certa":"F"}]}';
 
 class Home extends StatefulWidget {
   @override

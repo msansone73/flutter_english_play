@@ -16,10 +16,10 @@ class Questao extends StatefulWidget {
 class _QuestaoState extends State<Questao> {
   var pontuacao;
 
-  Function setResultado(bool xresultado){
+  Function setResultado(bool acertou){
     String saida;
-    pontuacao(xresultado);
-    if (xresultado){
+    pontuacao(acertou);
+    if (acertou){
       saida='Parabéns!';
     }
   else {
