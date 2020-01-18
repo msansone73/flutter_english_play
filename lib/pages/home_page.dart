@@ -1,12 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_english_play/widget/questao_wid.dart';
 
+
+int pontos=50;
+
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
 }
 
 class _HomeState extends State<Home> {
+
+
+  Function acertaPonto(bool acertou){
+    setState(() {
+      if (acertou){
+        pontos++;
+      } else {
+        pontos--;
+      }      
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,13 +41,13 @@ class _HomeState extends State<Home> {
                     style: Theme.of(context).accentTextTheme.body1,
                   ),
                 ),
-                Text('50 pontos',
+                Text(pontos.toString()+' pontos',
                   style: Theme.of(context).accentTextTheme.body2,
                 )
               ],
             ),
             Divider(height: 10,),
-            Questao(),
+            Questao(pontuacao: acertaPonto,),
           ],
         ),
       ),
