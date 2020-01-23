@@ -1,4 +1,4 @@
-#Sat Jan 18 15:36:37 WET 2020
+#Thu Jan 23 21:01:37 WET 2020
 base.0=/Users/msansone/Documents/git/flutter/flutter_english_play/build/app/intermediates/dex/debug/mergeDexDebug/out/classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
